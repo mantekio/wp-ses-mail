@@ -1,0 +1,22 @@
+{
+  "name": "mantekio/wp-ses-mail",
+  "description": "WordPress must-use plugin that sends mail through Amazon SES with an IAM role, so no SMTP credentials are stored and no send failures pass silently.",
+  "type": "wordpress-muplugin",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/mantekio/wp-ses-mail",
+  "keywords": ["wordpress", "muplugin", "aws", "ses", "email", "wp_mail", "phpmailer", "iam", "smtp"],
+  "authors": [
+    {
+      "name": "ManTek Technologies",
+      "homepage": "https://www.mantek.io"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/mantekio/wp-ses-mail/issues",
+    "docs": "https://www.mantek.io/insights/wordpress-email-ses"
+  },
+  "require": {
+    "php": ">=7.4",
+    "composer/installers": "^1.0 || ^2.0"
+  }
+}

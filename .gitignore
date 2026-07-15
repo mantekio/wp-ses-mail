@@ -1,0 +1,12 @@
+# Build / dependency artefacts
+/vendor/
+composer.lock
+.DS_Store
+
+# Internal working docs — NEVER commit these. This repo becomes public, and its
+# full history would be exposed. The article lives in the mantek.io site repo;
+# the test plan, tester brief, and live-test runbook are internal QA material.
+/ARTICLE.mdx
+/LIVE-TEST.md
+/TEST-PLAN.md
+/TESTER-BRIEF.md
