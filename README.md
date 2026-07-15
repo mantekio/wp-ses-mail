@@ -4,6 +4,8 @@
 
 A WordPress **must-use plugin** that sends mail through **Amazon SES**, authenticated by an **IAM role**, so there are no credentials stored anywhere and no send failures that pass silently.
 
+> ⚠️ **Status: `0.9.0` (pre-1.0).** Feature-complete and hardened through repeated adversarial review, with the SES signing checked against AWS's own SigV4 test vectors. It has **not yet been run end-to-end against a live Amazon SES account**, so treat it as pre-production until `1.0.0`. It ships in the open while that verification runs; issues and field reports are welcome.
+
 > 📖 **Full write-up:** [Your WordPress mail credentials are sitting in your database](https://www.mantek.io/insights/wordpress-email-ses)
 
 ## The problem

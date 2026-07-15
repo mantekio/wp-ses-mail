@@ -4,12 +4,13 @@ All notable changes to **WP SES Mail** are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project adheres
 to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.9.0] - 2026-07-16
 
-First public release in preparation (**1.0.0**). Not yet tagged: the release is
-gated on a full live send-and-receive verification against a real Amazon SES
-account (real `MessageId`, DKIM/SPF/DMARC alignment, a loud rejection, and the
-bounce loop).
+First public release, pre-1.0 and feature-complete, hardened through repeated
+adversarial review, with the SES signing checked against AWS's own SigV4 test
+vectors. **Not yet verified end-to-end against a live Amazon SES account** (a real
+`MessageId`, DKIM/SPF/DMARC alignment, a live loud rejection, the bounce loop):
+that verification is what promotes it to a stable `1.0.0`.
 
 ### Added
 - Initial WordPress must-use plugin that sends `wp_mail()` through the Amazon SES
@@ -29,4 +30,4 @@ bounce loop).
 - Actions: `wpses_sent`, `wpses_send_failed`, `wpses_suppression_unreadable`.
 - Single file, no AWS SDK, hand-rolled SigV4.
 
-[Unreleased]: https://github.com/mantekio/wp-ses-mail
+[0.9.0]: https://github.com/mantekio/wp-ses-mail/releases/tag/v0.9.0

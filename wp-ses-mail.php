@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WP SES Mail
  * Description: Sends WordPress mail through Amazon SES with no credentials stored anywhere. Must-use plugin.
- * Version:     1.0.0
+ * Version:     0.9.0
  * Author:      ManTek Technologies
  * Author URI:  https://www.mantek.io
  * License:     GPL-2.0-or-later
