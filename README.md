@@ -126,6 +126,10 @@ The full reasoning (why a subclass and not the `pre_wp_mail` fork, why loud fail
 
 **→ [Your WordPress mail credentials are sitting in your database](https://www.mantek.io/insights/wordpress-email-ses)**
 
+## Changelog
+
+Every release is documented in the [changelog](https://github.com/mantekio/wp-ses-mail/blob/main/CHANGELOG.md), and the notes for each version are on the [releases page](https://github.com/mantekio/wp-ses-mail/releases).
+
 ## License
 
 [GPL-2.0-or-later](LICENSE): same as WordPress.
